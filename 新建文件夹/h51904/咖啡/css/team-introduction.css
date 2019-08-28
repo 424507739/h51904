@@ -1,0 +1,237 @@
+header{
+    height: 80px;
+    background: white;
+}
+.top{
+    margin: auto;
+    width: 1200px;
+    height: 80px;
+}
+.top img{
+    margin-left: 46px;
+    width: 145px;
+    height: 80px;
+}
+li:hover a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.top ul{
+    float: right;
+    height: 80px;
+}
+.top ul li{
+    width: 130px;
+    font-weight: 550;
+    float: left;
+    color: #333333;
+    position: relative;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    height: 80px;
+}
+.top ul li .mo{
+    position: absolute;
+    bottom: 0px;
+    height: 6px;
+    width: 130px;
+    opacity: 0;
+    background: #866961;
+}
+.top ul li .di{
+    opacity: 1;
+}
+.top ul li:hover .mo{
+    opacity: 1;
+}
+.lun1{
+    margin: auto;
+    width: 100%;
+}
+.lun1 img{
+    width: 100%;
+}
+.menintro{
+    height: 736px;
+}
+.menintro .men1{
+    margin: auto;
+    height: 736px;
+    width: 1200px;
+}
+.men1tit{
+    margin: auto;
+    overflow: hidden;
+
+    width: 998px;
+    height: 72px;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 27px;
+}
+.title{
+    display: flex;
+    margin-top: 38px;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.men1tit i{
+    display: inline-block;
+    width: 2px;
+    margin-right: 8px;
+
+    height: 9px;
+    background: #866961;
+}
+.men1tit h5{
+    font-size: 15px;
+}
+.haha span{
+    float: left;
+    font-size: 10px;
+    padding-top: 4px;
+    color: #999999;
+}
+.haha .hahha{
+    float: right;
+    font-size: 14px;
+}
+.haha .hahha a{
+    color: #333333;
+}
+.haha .hahha a:nth-child(2){
+    color: #999999;
+}
+.zhaopian{
+    float: left;
+    width: 374px;
+    height: 600px;
+    margin-left: 104px;
+    background: red;
+}
+.text{
+    float: left;
+    margin-left: 26px;
+}
+.textp h5{
+    color: #333333;
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+.textp p{
+  width: 598px;
+  text-indent: 30px;
+  font-size: 14px;
+  color: #999999;
+  line-height: 24px;
+  text-align: justify;
+}
+.textp{
+    padding-bottom: 46px;
+}
+.textp span{
+    font-size: 12px;
+    color: #999999;
+    display: block;
+    padding-bottom: 28px;
+}
+.textp p:last-child{
+    margin-top: 25px;
+}
+.model{
+    display: flex;
+    justify-content: space-between;
+    width: 148px;
+    
+    height: 292px;
+}
+.model1{
+    position: relative;
+}
+.model img{
+    height: 222px;
+    width: 148px;   
+    transition: 1s;
+    opacity: 0;
+}
+.model .show{  
+    opacity: 1;
+}
+.model .bl{  
+    background: #333333;
+}
+
+.model .xian{
+    position: absolute;
+    width: 23px;
+    height: 1px;
+    top: 222px;
+    left: 22px;
+    background: #666666;
+}
+.model .haha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 148px;
+    height: 69px;
+    transition: 1s;
+    border-top: 1px solid #d5d5d5;
+}
+.model .haha h4{
+    font-size: 13px;
+    text-align: center;
+   padding-top: 18px;
+   padding-bottom: 11px;
+   transition: 1s;
+    color: #5d5d5d;
+}
+.model .haha h4{
+    color: white;
+}
+.model .haha span{
+    text-align: center;
+}
+.model1:hover img{
+   opacity: 1;
+   transform: rotate(3600deg);
+
+}
+.model1:hover .haha{
+    background: #333333;
+}
+.model1:hover h4{
+    color: white;
+}
+footer{
+    width: 100%;
+    background: #866961;
+}
+footer .bott{
+    width: 1200px;
+
+    height: 80px;
+    margin: auto;
+}
+.bottl{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.bottl span{
+    padding-left: 68px;
+    
+    font-size: 14px;
+    color: white;
+}
+.bottr{
+    float: left;
+    padding-left: 180px;
+   margin-top: 18px;
+    width: 110px;
+    height: 80px;
+}

@@ -1,0 +1,166 @@
+header{
+    height: 80px;
+    background: white;
+}
+.top{
+    margin: auto;
+    width: 1200px;
+    height: 80px;
+}
+.top img{
+    margin-left: 46px;
+    width: 145px;
+    height: 80px;
+}
+li:hover a{
+    text-decoration: none;
+}
+.hahha:hover a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.top ul{
+    float: right;
+    height: 80px;
+}
+.top ul li{
+    width: 130px;
+    font-weight: 550;
+    float: left;
+    color: #333333;
+    position: relative;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    height: 80px;
+}
+.top ul li .mo{
+    position: absolute;
+    bottom: 0px;
+    height: 6px;
+    width: 130px;
+    opacity: 0;
+    background: #866961;
+}
+.top ul li .di{
+    opacity: 1;
+}
+.top ul li:hover .mo{
+    opacity: 1;
+}
+.lun1{
+    margin: auto;
+    width: 100%;
+}
+.lun1 img{
+    width: 100%;
+}
+.menintro{
+    height: 642px;
+}
+.menintro .men1{
+    margin: auto;
+    height: 642px;
+    width: 1200px;
+}
+.men1tit{
+    margin: auto;
+    overflow: hidden;
+
+    width: 998px;
+    height: 72px;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 27px;
+}
+.title{
+    display: flex;
+    margin-top: 38px;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.men1tit i{
+    display: inline-block;
+    width: 2px;
+    margin-right: 8px;
+
+    height: 9px;
+    background: #866961;
+}
+.men1tit h5{
+    font-size: 15px;
+}
+.haha span{
+    float: left;
+    font-size: 10px;
+    padding-top: 4px;
+    color: #999999;
+}
+.haha .hahha{
+    float: right;
+    font-size: 13px;
+}
+.haha .hahha a{
+    color: #333333;
+}
+.haha .hahha a:nth-child(2){
+    color: #999999;
+}
+.haha .hahha a:nth-child(3){
+    color: #999999;
+}
+.zhaopian{
+    float: left;
+    width: 430px;
+    height: 506px;
+    margin-left: 104px;
+    background: red;
+}
+.zhaopian img{
+    width: 430px;
+    height: 506px;
+}
+.menintro .text {
+    float:left;
+    padding-top: 14.5px;
+    margin-left: 36px;
+    text-indent: 30px;
+    font-size: 15px;
+    text-align: justify;
+    color: #333333;
+    width: 528px;
+    line-height: 30px;
+}
+.menintro .text p:nth-child(2){
+    padding-top: 29px;
+}
+
+footer{
+    width: 100%;
+    background: #866961;
+}
+footer .bott{
+    width: 1200px;
+
+    height: 80px;
+    margin: auto;
+}
+.bottl{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.bottl span{
+    padding-left: 68px;
+    
+    font-size: 14px;
+    color: white;
+}
+.bottr{
+    float: left;
+    padding-left: 180px;
+    width: 110px;
+    margin-top: 18px;
+}

@@ -1,0 +1,443 @@
+header{
+    height: 80px;
+    background: white;
+}
+img{
+    vertical-align: top;
+}
+.top{
+    margin: auto;
+    width: 1200px;
+    height: 80px;
+}
+.top img{
+    margin-left: 46px;
+    width: 145px;
+    height: 80px;
+}
+li:hover a{
+    text-decoration: none;
+}
+.top ul{
+    float: right;
+    height: 80px;
+}
+.top ul li{
+    width: 130px;
+    font-weight: 550;
+    float: left;
+    color: #333333;
+    position: relative;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    height: 80px;
+}
+.top ul li .mo{
+    position: absolute;
+    bottom: 0px;
+    height: 6px;
+    width: 130px;
+    opacity: 0;
+    background: #866961;
+}
+.top ul li .di{
+    opacity: 1;
+}
+.top ul li:hover .mo{
+    opacity: 1;
+}
+.lunbo{
+    width: 100%;
+}
+.lun{
+    margin: auto;
+    width: 100%;
+    border-bottom: 2px solid #fdf1bf;
+}
+.lun img{
+    width: 100%;
+}
+.about{
+    width: 100%;
+    height: 790px;
+}
+.aboutitem{
+    margin: auto;
+    height: 790px;
+    width: 1200px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 160px;
+    width: 1200px;
+}
+.item1 h3{
+    font-size: 21px;
+    color: #333333;
+}
+.item1 span{
+    font-size: 11px;
+    margin-top: 9px;
+    display: block;
+}
+.item1 img{
+    margin-top: 6px;
+    height: 26px;
+    width: 24px;
+}
+.jianjie{
+    width: 1200px;
+    height: 630px;
+}
+.jianjiel{ 
+    float: left;
+    width: 476px;
+    height: 630px;
+}
+.jianjiel .kuang{
+    width: 390px;
+    height: 515px;
+    margin-left: 60px;
+    margin-top: 16px;
+    border: 1px solid #333333;
+}
+.jianjiel .kuang img{
+    position: relative;
+    bottom: 14px;
+    left: 14px;
+    width: 400px;
+    height: 518px;
+}
+.jianjier{
+    width: 606px;
+    height: 630px;
+    float: left;
+    margin-left: 32px;
+}
+.jianjier h3{
+   
+    font-size: 22px;
+    margin-top: 15px;
+    color: #333333;
+}
+.jianjier i{
+    margin-top: 54px;
+    display: block;
+    background: #333333;
+    height: 1px;
+    width: 36px;
+}
+.jianjier p{
+    text-indent: 28px;
+    color: #393438;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.jianjier span{
+    display: block;
+    text-indent: 28px;
+    color: #393438;
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.guanggao1{
+    width: 100%;
+}
+.guanggao1 img{
+    
+    width: 100%;
+}
+.kabu{
+    height: 660px;
+}
+.kabu1{
+    margin: auto;
+    width: 1200px;
+    height: 660px;
+}
+.tu{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.tutu{
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    /* background: yellow; */
+}
+.bian{
+    width: 328px;
+    position: relative;
+    height: 298px;
+}
+.bian img:nth-child(2){
+    display: none;
+    width: 64px;
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+    bottom: 50%;
+    margin-bottom: -33px;
+    height: 66px;
+}
+.tutu:hover .xu{
+   opacity: .6;
+}
+.tutu:hover .sousuo{
+    display: block;
+ }
+ .tutu:hover p{
+    color: #333333;
+ }
+.tutu .bian img:nth-child(1){
+    width: 328px;
+    height: 298px;
+}
+.tutu h4{
+    font-size: 23px;
+    color: #333333;
+    margin-top: 16px;
+}
+.tutu i{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 11px;
+    width: 32px;
+    height: 1px;
+    background: #333333;
+}
+.tutu p{
+    text-align: center;
+    line-height: 23px;
+    font-size: 14px;
+    color: #999999;
+}
+.team{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    height: 784px;
+}
+.team .bj{
+    margin: auto;
+    opacity: 0.05;
+    width: 100%;
+    height: 784px;
+}
+.teamour{
+    width: 1088px;
+    position: absolute;
+    height: 696px;
+    left:50%;
+    margin-left: -544px;
+    bottom: 88px;
+  
+}
+.teamourtit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1088px;
+    height: 144px;
+}
+.teamourtit span{
+    display: block;font-size: 11px;
+    margin-bottom: 6px;
+}
+.teamourtit h3{
+    font-size: 23px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+.teambot{
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    width: 1088px;
+}
+.example1{
+    width: 246px;
+    position: relative;
+    height: 508px;
+}
+.exe{
+    width: 246px;
+    height: 406px;
+}
+.exe img{
+    width: 246px;
+    height: 406px;
+}
+.hezi{
+    height: 102px;
+    overflow: hidden;
+    text-align: center;
+    width: 244px;
+    border: 1px solid #999999;
+    border-top: none;
+}
+.hezi h5{
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+.dh{
+    height: 102px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    width: 244px;
+    border: 1px solid #999999;
+    border-top: none;
+   bottom: 0px;
+    color: white;
+    opacity: 0;
+    transition: 2s;
+}
+.dh h5{
+    font-size: 18px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.dh p{
+    line-height: 24px;
+}
+.dh i{
+    margin-left: 116px;
+    margin-bottom:9px; 
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: white;
+}
+.example1:hover .hezi{
+    opacity: 0;
+}
+.example1:hover .dh{
+    opacity: 1;
+    background: #3c3c3c;
+    /* transform: translatey(-103px); */
+}
+.contact{
+    background: white;
+    height: 546px;
+}
+.contact1{
+    margin: auto;
+    height: 396px;
+    width: 1200px;
+}
+.contacttit{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contacttit h3{
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-size: 23px;
+}
+.contacttit span{
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.contacttit img{
+    display: block;
+}
+.contact1l{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 784px;   
+    height: 396px;
+}
+.contact1l img{
+    width: 660px;
+    height: 346px;
+}
+.contact1r{
+    float: right;
+    width: 416px;
+    height: 396px;
+}
+.one{
+    height: 122px;
+    width: 416px;
+}
+.onel{
+    float: left;
+    height: 122px;
+    width: 58px;
+}
+.oner{
+    height: 122px;
+    width: 358px;
+    float: right;
+}
+.oner h7{
+    display: block;
+    margin-top: 1px;
+font-size: 19px;
+}
+.oner span:nth-child(2){
+    margin-top: 10px;
+    display:block;
+    font-size: 11px;
+    color: #a1a1a1;
+}
+.oner span:nth-child(3){
+    margin-top: 12px;
+    font-size: 14px;
+    display: block;
+}
+.oner span:nth-child(4){
+    font-size: 13px;
+    display: block;
+    margin-top: 12px;
+    color: #a1a1a1;
+}
+footer{
+    height: 80px;
+    background: #866961;
+}
+footer .bott{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+.bottl{
+    width: 740px;
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.bottl span{
+    font-size: 14px;
+    color: white;
+}
+.bottr{
+    float: left;
+    margin-left: 100px;
+    margin-top: 23px;
+    width: 110px;
+    height: 80px;
+}
+#allmap {height: 346px;width:660px;overflow: hidden;}
